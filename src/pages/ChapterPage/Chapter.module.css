@@ -1,0 +1,20 @@
+.chapter-page {
+    padding: 0rem 17rem;
+}
+
+.wrapper {
+    background: #fff;
+    width: 100%;
+}
+
+.header-manga-name {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0 0 7px 10px;
+    display: inline-block;
+}
+
+.manga-name {
+    color: #288ad6;
+    cursor: pointer;
+}

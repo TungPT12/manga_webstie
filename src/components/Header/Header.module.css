@@ -1,0 +1,24 @@
+.header {
+    background-image: url("https://nettruyenviet.com/assets/images/bg_header_2017.jpg");
+    color: #fff;
+    padding: 0rem 17rem;
+}
+
+.logo {
+    flex: 1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0rem;
+    color: white;
+    text-shadow: -18px 8px 18px #0affff;
+    color: #1af0f0;
+    margin: 0;
+}
+
+.search-input {
+    flex: 2;
+}
+
+.text-login {
+    flex: 1;
+}
