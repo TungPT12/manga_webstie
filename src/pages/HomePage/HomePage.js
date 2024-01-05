@@ -16,7 +16,6 @@ function HomePage() {
             const data = response.data;
             return data
         }).then((data) => {
-            console.log(data)
             setIsLoading(false)
             setListManga(data.data)
         }).catch((error) => {

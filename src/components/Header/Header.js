@@ -11,11 +11,11 @@ function Header() {
             <div className='d-flex justify-content-between align-items-center'>
                 <Link to={'/'} className={`${styles['logo']} text-decoration-none`}>Manga</Link>
                 <div className={`d-flex py-3 align-items-center ${styles['search-header']} `}>
-                    <div className={`bg-light d-flex w-100 justify-content-center align-items-center pe-2`}>
+                    <div className={`bg-light d-flex w-100 justify-content-center align-items-center`}>
                         <input value={key} onChange={(e) => {
                             setKey(e.target.value)
-                        }} className={`w-100 ${styles['search-input']} p-1`} />
-                        <Link to={`/manga/search/?name=${key}`}>
+                        }} className={`w-100 ${styles['search-input']} ps-2`} />
+                        <Link to={`/manga/search/?name=${key}`} className={`${styles['search-btn']}`}>
                             <FontAwesomeIcon icon={faSearch} className={`${styles['search-icon']}`} />
                         </Link>
                     </div>
