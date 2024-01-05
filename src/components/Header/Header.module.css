@@ -15,10 +15,21 @@
     margin: 0;
 }
 
-.search-input {
+.search-header {
     flex: 2;
 }
 
 .text-login {
     flex: 1;
+}
+
+.search-input {
+    outline: none;
+    border: none;
+}
+
+.search-icon {
+    color: #979797;
+    line-height: 100%;
+    font-size: 18px;
 }

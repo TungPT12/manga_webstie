@@ -63,8 +63,8 @@ function MangaPage() {
     }
 
     useEffect(() => {
-        // getManga(id);
-        // getChapters(id)
+        getManga(id);
+        getChapters(id)
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 

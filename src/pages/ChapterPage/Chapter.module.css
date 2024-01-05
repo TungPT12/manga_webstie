@@ -17,4 +17,65 @@
 .manga-name {
     color: #288ad6;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.manga-name:hover {
+    text-decoration: underline;
+}
+
+
+
+.icon {
+    color: #d9534f;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.select-chapter {
+    display: inline-block;
+    padding: 0;
+    height: 34px;
+    border: 1px solid #ccc;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 0;
+}
+
+.prev-icon,
+.next-icon {
+    color: #fff;
+}
+
+.reading-prev,
+.reading-next {
+    display: inline-block;
+    width: 33px;
+    background: #d9534f;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #d43f3a;
+    height: 34px;
+    border-radius: 4px 0 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reading-next {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.icon:hover {
+    color: #ac2925;
+}
+
+
+.reading-prev:hover,
+.reading-next:hover {
+    background: #ac2925;
+}
+
+.disable {
+    opacity: 0.4;
 }

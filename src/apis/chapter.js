@@ -13,6 +13,21 @@ const getChaptersApi = async (id) => {
     }
 }
 
+
+const getChapterImagesApi = async (chapterId) => {
+    try {
+        const response = await axiosInstance.get('/image', {
+            params: {
+                id: chapterId
+            },
+        })
+        return response
+    } catch (error) {
+        return error.response
+    }
+}
+
 export {
-    getChaptersApi
+    getChaptersApi,
+    getChapterImagesApi
 }

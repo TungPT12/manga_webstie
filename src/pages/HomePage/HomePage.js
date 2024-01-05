@@ -52,7 +52,7 @@ function HomePage() {
     }
 
     useEffect(() => {
-        // fetchManga(page);
+        fetchManga(page);
     }, [page])
 
     return (

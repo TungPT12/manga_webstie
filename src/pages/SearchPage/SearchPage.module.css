@@ -1,0 +1,89 @@
+.search-page {
+    background: #d6d6d6;
+    padding: 0rem 17rem;
+}
+
+.mangas {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.wrapper-manga {
+    background: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}
+
+.name {
+    font-size: 15px;
+    margin: 0 0 7px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    width: 100%;
+    display: block;
+}
+
+.image {
+    border-radius: 2px;
+}
+
+.status .title,
+.country .title {
+    font-size: 14px;
+    color: #000;
+}
+
+.status span,
+.country span {
+    margin-left: 4px;
+    color: #a3a1a1;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: italic;
+    float: right;
+    max-width: 47%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.manga-type {
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 10px;
+    clear: right;
+    margin-bottom: 15px;
+}
+
+li {
+    list-style: none;
+    border-top: 1px solid #dedede;
+}
+
+.type {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    color: #000;
+}
+
+.type:hover {
+    color: #ae4ad9;
+}
+
+.type-title {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #2980b9;
+}

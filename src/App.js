@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element=<HomePage /> />
-        <Route path='/' element=<SearchPage /> />
+        <Route path='/manga/search' element=<SearchPage /> />
         <Route path='/manga/:id' element=<MangaPage /> />
         <Route path='/manga/:id/:chapterId' element=<ChapterPage /> />
       </Routes>
