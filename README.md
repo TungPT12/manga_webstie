@@ -6,7 +6,7 @@
 
 ## Link Live
 
-* https://tung-store.netlify.app
+* https://mangaforlive.netlify.app/
 
 ## Build Withs
 
