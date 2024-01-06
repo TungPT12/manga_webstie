@@ -30,7 +30,6 @@ function MangaPage() {
             const data = response.data;
             return data
         }).then((data) => {
-            console.log(data)
             setChapters(data.data)
             setIsLoadingChapter(false)
         }).then((error) => {
@@ -43,7 +42,6 @@ function MangaPage() {
             const data = response.data;
             return data
         }).then((data) => {
-            console.log(data)
             setManga(data.data)
             setIsLoadingManga(false)
         }).then((error) => {

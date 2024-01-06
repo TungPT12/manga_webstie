@@ -35,7 +35,6 @@ function ChapterPage() {
             const index = data.data.findIndex((chapter) => {
                 return chapter.id === chapterId
             })
-            console.log(index)
             setIndexCurrentChapter(index)
             setIsLoadingChapters(false)
         }).then((error) => {
@@ -77,13 +76,13 @@ function ChapterPage() {
     }
 
     useEffect(() => {
-        // getManga(id);
-        // getChapters(id)
+        getManga(id);
+        getChapters(id)
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     useEffect(() => {
-        // getChapterImages(chapterId)
+        getChapterImages(chapterId)
     }, [chapterId])
 
 
