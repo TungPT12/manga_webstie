@@ -20,9 +20,9 @@ function Header() {
                         </Link>
                     </div>
                 </div>
-                <div className={`text-end ${styles['text-login']}`}>
+                {/* <div className={`text-end ${styles['text-login']}`}>
                     đăng nhập / đăng kí
-                </div>
+                </div> */}
             </div>
         </div>
     );
