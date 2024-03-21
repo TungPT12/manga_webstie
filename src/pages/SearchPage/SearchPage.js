@@ -56,7 +56,7 @@ function SearchPage() {
     const renderTypes = (types) => {
         return types.map((type) => {
             return <li>
-                <Link to={`/manga/search/?type=${type.toLowerCase()}`} className={`${styles['type']} text-capitalize`}>{type}</Link>
+                <Link to={`/manga/search?type=${type.toLowerCase()}`} className={`${styles['type']} text-capitalize`}>{type}</Link>
             </li>
         })
     }
